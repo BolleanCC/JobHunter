@@ -1,0 +1,71 @@
+{
+  "id": "d4e5f6a7-b8c9-0123-defa-234567890123",
+  "jobPostingId": "c3d4e5f6-a7b8-9012-cdef-123456789012",
+  "extractedAt": "2024-11-05T08:35:00.000Z",
+  "extractedByModel": "claude-sonnet-4-6",
+  "roleTitle": "Senior Software Engineer – Platform",
+  "seniority": "senior",
+  "domain": "Platform Engineering / Developer Tooling",
+  "responsibilities": [
+    "Design and build internal developer platform tooling",
+    "Own reliability of shared infrastructure services",
+    "Collaborate with product teams to improve deployment pipelines"
+  ],
+  "mustHaveSkills": [
+    {
+      "name": "TypeScript",
+      "category": "language",
+      "yearsRequired": 5,
+      "isRequired": true,
+      "isAmbiguous": false
+    },
+    {
+      "name": "Node.js",
+      "category": "framework",
+      "yearsRequired": 5,
+      "isRequired": true,
+      "isAmbiguous": false
+    },
+    {
+      "name": "AWS",
+      "category": "platform",
+      "isRequired": true,
+      "isAmbiguous": false,
+      "rawText": "Experience with AWS or GCP"
+    }
+  ],
+  "niceToHaveSkills": [
+    {
+      "name": "Kubernetes",
+      "category": "platform",
+      "isRequired": false,
+      "isAmbiguous": false
+    },
+    {
+      "name": "GCP",
+      "category": "platform",
+      "isRequired": false,
+      "isAmbiguous": true,
+      "rawText": "AWS or GCP – ambiguous which is preferred"
+    }
+  ],
+  "atsKeywords": [
+    "TypeScript", "Node.js", "AWS", "GCP", "Kubernetes",
+    "platform engineering", "developer platform", "high-availability",
+    "deployment pipelines", "infrastructure"
+  ],
+  "educationRequirements": [],
+  "workAuthorizationSignals": [],
+  "location": "Sydney, NSW",
+  "workModel": "hybrid",
+  "salary": {
+    "min": 150000,
+    "max": 200000,
+    "currency": "AUD",
+    "period": "annual",
+    "isNegotiable": true
+  },
+  "redFlags": [],
+  "summary": "Strong match for a platform-focused senior engineer role at a well-known SaaS company. No explicit education requirement. Kubernetes is a plus but not required.",
+  "humanReviewed": false
+}

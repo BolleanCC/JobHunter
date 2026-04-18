@@ -1,0 +1,47 @@
+{
+  "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+  "createdAt": "2024-01-15T00:00:00.000Z",
+  "legalName": "Alex Jordan Smith",
+  "email": "alex.smith@example.com",
+  "workAuthorizations": [
+    {
+      "country": "AU",
+      "status": "permanent_resident",
+      "sponsorshipRequired": false
+    },
+    {
+      "country": "NZ",
+      "status": "citizen",
+      "sponsorshipRequired": false
+    }
+  ],
+  "displayName": "Alex Smith",
+  "headline": "Senior Full-Stack Engineer · TypeScript · AWS · 8 yrs",
+  "phone": "+61 400 000 000",
+  "location": "Sydney, NSW, Australia",
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/alex-smith-dev",
+    "github": "https://github.com/alexsmith",
+    "portfolio": "https://alexsmith.dev",
+    "other": []
+  },
+  "targetRoles": ["Senior Software Engineer", "Staff Engineer", "Tech Lead"],
+  "targetLocations": ["Sydney", "Melbourne", "Remote"],
+  "targetWorkModes": ["hybrid", "remote"],
+  "salaryExpectation": {
+    "min": 140000,
+    "max": 180000,
+    "currency": "AUD",
+    "period": "annual",
+    "isNegotiable": true
+  },
+  "relocationPreference": "open_to_discuss",
+  "noticePeriodDays": 28,
+  "openToContract": true,
+  "openToPartTime": false,
+  "languages": [
+    { "language": "English", "proficiency": "native" },
+    { "language": "Mandarin", "proficiency": "conversational" }
+  ],
+  "updatedAt": "2024-11-01T09:00:00.000Z"
+}

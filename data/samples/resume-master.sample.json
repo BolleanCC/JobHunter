@@ -1,0 +1,93 @@
+{
+  "id": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+  "userId": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+  "createdAt": "2024-01-15T00:00:00.000Z",
+  "label": "Master Resume",
+  "summary": "Senior full-stack engineer with 8+ years building scalable distributed systems. Deep expertise in TypeScript, Node.js, and AWS. Led teams of 3–8 engineers. Passionate about developer experience and observability.",
+  "totalYearsOfExperience": 8,
+  "experience": [
+    {
+      "id": "e1000001-0000-0000-0000-000000000001",
+      "company": "Acme Fintech Pty Ltd",
+      "title": "Senior Software Engineer",
+      "employmentType": "full_time",
+      "location": "Sydney, NSW",
+      "workMode": "hybrid",
+      "startDate": "2021-03",
+      "isCurrent": true,
+      "bullets": [
+        "Architected event-driven payment processing pipeline handling 50k TPS using Kafka and Node.js, reducing latency by 40%",
+        "Led migration of monolith to microservices, cutting deployment time from 2 hours to 8 minutes via GitHub Actions + ECS",
+        "Mentored 4 junior engineers; introduced ADR process adopted across 3 teams"
+      ],
+      "technologies": ["TypeScript", "Node.js", "Kafka", "AWS ECS", "PostgreSQL", "Terraform"]
+    },
+    {
+      "id": "e1000002-0000-0000-0000-000000000002",
+      "company": "StartupXYZ",
+      "title": "Software Engineer",
+      "employmentType": "full_time",
+      "location": "Sydney, NSW",
+      "workMode": "onsite",
+      "startDate": "2018-06",
+      "endDate": "2021-02",
+      "isCurrent": false,
+      "bullets": [
+        "Built real-time analytics dashboard (React, D3.js, WebSocket) used by 200+ enterprise clients",
+        "Reduced API p99 latency from 800 ms to 120 ms by introducing Redis caching layer",
+        "Delivered end-to-end GDPR compliance features within 6-week regulatory deadline"
+      ],
+      "technologies": ["React", "TypeScript", "Python", "Redis", "PostgreSQL", "AWS Lambda"]
+    }
+  ],
+  "education": [
+    {
+      "id": "ed000001-0000-0000-0000-000000000001",
+      "institution": "University of New South Wales",
+      "degree": "Bachelor of Engineering (Honours)",
+      "field": "Software Engineering",
+      "startDate": "2014-02",
+      "endDate": "2018-11",
+      "gpa": 6.5,
+      "honors": "First Class Honours",
+      "relevantCourses": ["Distributed Systems", "Algorithms", "Database Systems"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "ab000001-0000-0000-0000-000000000001",
+      "name": "OpenTraceQL",
+      "description": "Open-source query language for distributed trace analysis, used by 300+ developers",
+      "url": "https://opentraceql.dev",
+      "repoUrl": "https://github.com/alexsmith/opentraceql",
+      "technologies": ["TypeScript", "ANTLR4", "Node.js"],
+      "highlights": ["300+ GitHub stars", "Featured in InfoQ newsletter"],
+      "startDate": "2022-09",
+      "isCurrent": true
+    }
+  ],
+  "skills": [
+    { "name": "TypeScript", "proficiency": "expert", "yearsOfExperience": 6 },
+    { "name": "Node.js", "proficiency": "expert", "yearsOfExperience": 7 },
+    { "name": "React", "proficiency": "advanced", "yearsOfExperience": 5 },
+    { "name": "AWS", "proficiency": "advanced", "yearsOfExperience": 5 },
+    { "name": "PostgreSQL", "proficiency": "advanced", "yearsOfExperience": 6 },
+    { "name": "Kafka", "proficiency": "intermediate", "yearsOfExperience": 3 },
+    { "name": "Terraform", "proficiency": "intermediate", "yearsOfExperience": 2 },
+    { "name": "Python", "proficiency": "intermediate", "yearsOfExperience": 4 }
+  ],
+  "certifications": [
+    {
+      "id": "ce000001-0000-0000-0000-000000000001",
+      "name": "AWS Certified Solutions Architect – Associate",
+      "issuer": "Amazon Web Services",
+      "issuedAt": "2022-05",
+      "expiresAt": "2025-05",
+      "credentialUrl": "https://aws.amazon.com/verification"
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "volunteerWork": [],
+  "updatedAt": "2024-11-01T09:00:00.000Z"
+}

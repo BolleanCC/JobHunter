@@ -1,0 +1,100 @@
+{
+  "id": "a7b8c9d0-e1f2-3456-a0b1-567890123456",
+  "applicationDraftId": "f6a7b8c9-d0e1-2345-f0a1-456789012345",
+  "jobPostingId": "c3d4e5f6-a7b8-9012-cdef-123456789012",
+  "userProfileId": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+  "runStartedAt": "2024-11-05T08:30:00.000Z",
+  "runCompletedAt": "2024-11-05T08:32:45.000Z",
+  "status": "paused_for_review",
+  "triggeredBy": "user",
+  "cliVersion": "0.1.0",
+  "steps": [
+    {
+      "step": "extract_requirements",
+      "status": "completed",
+      "startedAt": "2024-11-05T08:30:05.000Z",
+      "completedAt": "2024-11-05T08:30:18.000Z",
+      "durationMs": 13000,
+      "llmCallIds": ["a1b00001-0000-0000-0000-000000000001"]
+    },
+    {
+      "step": "score_fit",
+      "status": "completed",
+      "startedAt": "2024-11-05T08:30:20.000Z",
+      "completedAt": "2024-11-05T08:30:31.000Z",
+      "durationMs": 11000,
+      "llmCallIds": ["a1b00002-0000-0000-0000-000000000002"]
+    },
+    {
+      "step": "human_review_score",
+      "status": "completed",
+      "startedAt": "2024-11-05T08:30:35.000Z",
+      "completedAt": "2024-11-05T08:31:10.000Z",
+      "durationMs": 35000,
+      "llmCallIds": []
+    },
+    {
+      "step": "tailor_resume",
+      "status": "completed",
+      "startedAt": "2024-11-05T08:31:12.000Z",
+      "completedAt": "2024-11-05T08:32:00.000Z",
+      "durationMs": 48000,
+      "llmCallIds": ["a1b00003-0000-0000-0000-000000000003"]
+    },
+    {
+      "step": "human_review_docs",
+      "status": "pending",
+      "llmCallIds": []
+    }
+  ],
+  "llmCalls": [
+    {
+      "id": "a1b00001-0000-0000-0000-000000000001",
+      "operation": "extract_requirements",
+      "model": "claude-sonnet-4-6",
+      "promptTokens": 1840,
+      "completionTokens": 612,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 1840,
+      "estimatedCostUsd": 0.0073,
+      "durationMs": 13000,
+      "succeeded": true,
+      "startedAt": "2024-11-05T08:30:05.000Z"
+    },
+    {
+      "id": "a1b00002-0000-0000-0000-000000000002",
+      "operation": "score_fit",
+      "model": "claude-sonnet-4-6",
+      "promptTokens": 3200,
+      "completionTokens": 480,
+      "cacheReadTokens": 1840,
+      "cacheWriteTokens": 0,
+      "estimatedCostUsd": 0.0038,
+      "durationMs": 11000,
+      "succeeded": true,
+      "startedAt": "2024-11-05T08:30:20.000Z"
+    }
+  ],
+  "auditLog": [
+    {
+      "at": "2024-11-05T08:30:00.000Z",
+      "actor": "user",
+      "event": "run_started",
+      "detail": "User initiated full pipeline run"
+    },
+    {
+      "at": "2024-11-05T08:31:10.000Z",
+      "actor": "user",
+      "event": "score_approved",
+      "detail": "User approved fit score of 87 and proceeded to tailoring"
+    },
+    {
+      "at": "2024-11-05T08:32:45.000Z",
+      "actor": "system",
+      "event": "paused_for_review",
+      "detail": "Tailored docs ready — awaiting human review"
+    }
+  ],
+  "totalTokensUsed": 8132,
+  "totalCostUsd": 0.0111
+}

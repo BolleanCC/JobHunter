@@ -1,0 +1,31 @@
+{
+  "id": "c3d4e5f6-a7b8-9012-cdef-123456789012",
+  "source": {
+    "platform": "seek",
+    "sourceId": "seek-78234501",
+    "url": "https://seek.com.au/job/78234501",
+    "scrapedAt": "2024-11-05T08:30:00.000Z"
+  },
+  "createdAt": "2024-11-05T08:30:00.000Z",
+  "title": "Senior Software Engineer – Platform",
+  "company": "Canva",
+  "companySize": "1001-5000",
+  "companyIndustry": "SaaS / Design Tools",
+  "location": "Sydney, NSW",
+  "workMode": "hybrid",
+  "employmentType": "full_time",
+  "seniority": "senior",
+  "salary": {
+    "min": 150000,
+    "max": 200000,
+    "currency": "AUD",
+    "period": "annual",
+    "isNegotiable": true
+  },
+  "description": "We are looking for a Senior Software Engineer to join our Platform team...\n\nYou will:\n- Design and build internal developer platform tooling\n- Own reliability of shared infrastructure services\n- Collaborate with product teams to improve deployment pipelines\n\nYou have:\n- 5+ years of software engineering experience\n- Strong TypeScript and Node.js skills\n- Experience with AWS or GCP\n- Track record of delivering high-availability systems\n\nNice to have:\n- Kubernetes experience\n- Prior platform/infrastructure engineering experience",
+  "postedAt": "2024-11-04T00:00:00.000Z",
+  "isActive": true,
+  "applicationUrl": "https://seek.com.au/job/78234501/apply",
+  "tags": ["platform", "backend", "infrastructure"],
+  "updatedAt": "2024-11-05T08:30:00.000Z"
+}
