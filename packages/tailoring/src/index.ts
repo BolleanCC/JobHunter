@@ -1,0 +1,11 @@
+export { tailorResume } from "./tailor-engine.js";
+export { computeFitScore } from "./fit-score.js";
+export { scoreBullet, rankBullets, scoreProject } from "./scorer.js";
+export { selectContent, selectSkills, selectExperience, selectProjects } from "./selector.js";
+export { renderMarkdown } from "./renderers/markdown.js";
+export { renderHtml } from "./renderers/html.js";
+export { ClaudeTailoringAdapter } from "./llm-tailor-adapter.js";
+export type { LlmTailoringAdapter, BulletTailoringResult } from "./llm-tailor-adapter.js";
+export type { TailoringOptions, TailoringResult } from "./tailor-engine.js";
+export type { BulletScore, } from "./scorer.js";
+export type { SelectionResult, SelectedExperience } from "./selector.js";

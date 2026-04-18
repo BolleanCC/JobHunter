@@ -1,0 +1,320 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`renderHtml > matches HTML snapshot 1`] = `
+"<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alex Smith – Resume</title>
+  <style>*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 10.5pt;
+  line-height: 1.45;
+  color: #1a1a1a;
+  background: #fff;
+}
+
+.page {
+  max-width: 8.3in;
+  margin: 0 auto;
+  padding: 0.55in 0.65in;
+}
+
+/* ── Header ────────────────────────────────────────────────────────────────── */
+.header { margin-bottom: 14px; border-bottom: 2px solid #1e3a5f; padding-bottom: 10px; }
+
+.header-name {
+  font-size: 22pt;
+  font-weight: 700;
+  color: #1e3a5f;
+  letter-spacing: -0.3px;
+  line-height: 1.1;
+}
+
+.header-title {
+  font-size: 11pt;
+  color: #4b5563;
+  font-weight: 400;
+  margin-top: 2px;
+  margin-bottom: 7px;
+}
+
+.contact-line {
+  font-size: 8.5pt;
+  color: #374151;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px 14px;
+  align-items: center;
+}
+
+.contact-line a { color: #2563eb; text-decoration: none; }
+.contact-sep { color: #d1d5db; }
+
+/* ── Section headings ──────────────────────────────────────────────────────── */
+h2 {
+  font-size: 9.5pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.13em;
+  color: #1e3a5f;
+  border-bottom: 1.5px solid #2563eb;
+  padding-bottom: 2px;
+  margin: 14px 0 7px;
+}
+
+/* ── Summary ───────────────────────────────────────────────────────────────── */
+.summary {
+  font-size: 9.5pt;
+  color: #374151;
+  line-height: 1.5;
+}
+
+/* ── Experience ────────────────────────────────────────────────────────────── */
+.exp-entry { margin-bottom: 10px; }
+
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0 8px;
+}
+
+.exp-company {
+  font-weight: 700;
+  font-size: 10.5pt;
+  color: #111827;
+}
+
+.exp-dates {
+  font-size: 8.5pt;
+  color: #6b7280;
+  white-space: nowrap;
+}
+
+.exp-title {
+  font-size: 9.5pt;
+  color: #374151;
+  font-style: italic;
+  margin-bottom: 4px;
+}
+
+.exp-meta {
+  font-size: 8.5pt;
+  color: #6b7280;
+  margin-bottom: 3px;
+}
+
+.exp-bullets { list-style: none; padding: 0; margin: 0; }
+
+.exp-bullets li {
+  padding-left: 13px;
+  position: relative;
+  font-size: 9.5pt;
+  color: #1a1a1a;
+  margin-bottom: 2px;
+  line-height: 1.42;
+}
+
+.exp-bullets li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: #2563eb;
+  font-size: 8pt;
+  top: 1.5px;
+}
+
+/* ── Skills ────────────────────────────────────────────────────────────────── */
+.skills-table { display: grid; grid-template-columns: auto 1fr; gap: 4px 14px; }
+.skill-cat { font-weight: 600; font-size: 9pt; color: #374151; white-space: nowrap; }
+.skill-vals { font-size: 9pt; color: #1a1a1a; }
+
+/* ── Education ─────────────────────────────────────────────────────────────── */
+.edu-entry { margin-bottom: 6px; }
+
+.edu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.edu-degree { font-weight: 600; font-size: 10pt; color: #111827; }
+.edu-dates { font-size: 8.5pt; color: #6b7280; }
+.edu-institution { font-size: 9pt; color: #4b5563; }
+.edu-detail { font-size: 8.5pt; color: #6b7280; }
+
+/* ── Certifications ────────────────────────────────────────────────────────── */
+.cert-grid { display: grid; grid-template-columns: 1fr auto; gap: 3px 16px; }
+.cert-name { font-size: 9.5pt; font-weight: 500; color: #111827; }
+.cert-issuer { font-size: 9pt; color: #4b5563; }
+.cert-date { font-size: 8.5pt; color: #6b7280; text-align: right; }
+
+/* ── Projects ──────────────────────────────────────────────────────────────── */
+.project-entry { margin-bottom: 8px; }
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.project-name { font-weight: 600; font-size: 10pt; color: #111827; }
+.project-link { font-size: 8.5pt; color: #2563eb; }
+.project-tech { font-size: 8.5pt; color: #6b7280; margin: 1px 0 3px; }
+.project-desc { font-size: 9.5pt; color: #1a1a1a; }
+
+/* ── Print ─────────────────────────────────────────────────────────────────── */
+@media print {
+  body { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  .page { padding: 0.4in 0.5in; }
+  h2 { page-break-after: avoid; }
+  .exp-entry, .edu-entry, .project-entry { page-break-inside: avoid; }
+}</style>
+</head>
+<body>
+<div class="page">
+<header class="header">
+  <div class="header-name">Alex Smith</div>
+  <div class="header-title">Senior Full-Stack Engineer · TypeScript · AWS · 8 yrs</div>
+  <div class="contact-line">Sydney, NSW, Australia<span class="contact-sep"> | </span><a href="mailto:alex.smith@example.com">alex.smith@example.com</a><span class="contact-sep"> | </span>+61 400 000 000<span class="contact-sep"> | </span><a href="https://linkedin.com/in/alex-smith-dev">LinkedIn</a><span class="contact-sep"> | </span><a href="https://github.com/alexsmith">GitHub</a></div>
+</header>
+
+<section aria-label="Summary">
+  <h2>Summary</h2>
+  <p class="summary">Senior full-stack engineer with 8+ years expertise in TypeScript, React, and AWS. Built payment systems at scale and led platform migrations for fintech clients.</p>
+</section>
+
+<section aria-label="Experience"><h2>Experience</h2>
+  <div class="exp-entry">
+    <div class="exp-header">
+      <span class="exp-company">Acme Fintech Pty Ltd</span>
+      <span class="exp-dates">Mar 2021 – Present</span>
+    </div>
+    <div class="exp-title">Senior Software Engineer</div>
+    <div class="exp-meta">Sydney, NSW · hybrid</div>
+    <ul class="exp-bullets">
+      <li>Built internal developer portal using React and TypeScript, used daily by 120 engineers</li>
+      <li>Architected event-driven payment processing pipeline handling 50k TPS using Kafka and Node.js, reducing latency by 40%</li>
+      <li>Mentored 4 junior engineers; introduced ADR process adopted across 3 teams</li>
+      <li>Led migration of monolith to microservices, cutting deployment time from 2 hours to 8 minutes via GitHub Actions + ECS</li>
+    </ul>
+  </div>
+  <div class="exp-entry">
+    <div class="exp-header">
+      <span class="exp-company">StartupXYZ</span>
+      <span class="exp-dates">June 2018 – Feb 2021</span>
+    </div>
+    <div class="exp-title">Software Engineer</div>
+    <div class="exp-meta">Sydney, NSW · onsite</div>
+    <ul class="exp-bullets">
+      <li>Reduced API p99 latency from 800 ms to 120 ms by introducing a Redis caching layer</li>
+      <li>Built real-time analytics dashboard using React, D3.js, and WebSocket, serving 200+ enterprise clients</li>
+      <li>Delivered GDPR compliance features end-to-end within 6-week regulatory deadline</li>
+    </ul>
+  </div>
+</section>
+
+<section aria-label="Skills">
+  <h2>Skills</h2>
+  <div class="skills-table">
+  <div class="skill-cat">Languages</div><div class="skill-vals">TypeScript, Python</div>
+  <div class="skill-cat">Frameworks &amp; Libraries</div><div class="skill-vals">React, Node.js</div>
+  <div class="skill-cat">Tools &amp; Platforms</div><div class="skill-vals">AWS, PostgreSQL, Kafka, Terraform, Redis, Docker</div>
+  </div>
+</section>
+
+<section aria-label="Education">
+  <h2>Education</h2>
+  <div class="edu-entry">
+    <div class="edu-header">
+      <span class="edu-degree">Bachelor of Engineering (Honours), Software Engineering</span>
+      <span class="edu-dates">Feb 2014 – Nov 2018</span>
+    </div>
+    <div class="edu-institution">University of New South Wales</div>
+    <div class="edu-detail">First Class Honours</div><div class="edu-detail">GPA: 6.5</div>
+  </div>
+</section>
+
+<section aria-label="Certifications">
+  <h2>Certifications</h2>
+  <div class="cert-grid">
+  <div class="cert-name">AWS Certified Solutions Architect – Associate</div>
+  <div class="cert-date">May 2022 <span style="color:#6b7280">(exp. May 2025)</span></div>
+  <div class="cert-issuer">Amazon Web Services</div>
+  <div></div>
+  </div>
+</section>
+
+<section aria-label="Projects">
+  <h2>Projects</h2>
+  <div class="project-entry">
+    <div class="project-header">
+      <span class="project-name">OpenTraceQL</span>
+      <a class="project-link" href="https://opentraceql.dev">https://opentraceql.dev</a>
+    </div>
+    <div class="project-tech">TypeScript, Node.js</div>
+    <div class="project-desc">Open-source query language for distributed trace analysis, used by 300+ developers</div>
+    <ul class="exp-bullets"><li>300+ GitHub stars</li></ul>
+  </div>
+</section>
+</div>
+</body>
+</html>"
+`;
+
+exports[`renderMarkdown > matches markdown snapshot 1`] = `
+"# Alex Smith
+Sydney, NSW, Australia · alex.smith@example.com · +61 400 000 000 · https://linkedin.com/in/alex-smith-dev · https://github.com/alexsmith
+
+## Summary
+
+Senior full-stack engineer with 8+ years expertise in TypeScript, React, and AWS. Built payment systems at scale and led platform migrations for fintech clients.
+
+## Experience
+
+### Acme Fintech Pty Ltd
+**Senior Software Engineer** · Mar 2021 – Present
+*Sydney, NSW · hybrid*
+
+- Built internal developer portal using React and TypeScript, used daily by 120 engineers
+- Architected event-driven payment processing pipeline handling 50k TPS using Kafka and Node.js, reducing latency by 40%
+- Mentored 4 junior engineers; introduced ADR process adopted across 3 teams
+- Led migration of monolith to microservices, cutting deployment time from 2 hours to 8 minutes via GitHub Actions + ECS
+
+### StartupXYZ
+**Software Engineer** · June 2018 – Feb 2021
+*Sydney, NSW · onsite*
+
+- Reduced API p99 latency from 800 ms to 120 ms by introducing a Redis caching layer
+- Built real-time analytics dashboard using React, D3.js, and WebSocket, serving 200+ enterprise clients
+- Delivered GDPR compliance features end-to-end within 6-week regulatory deadline
+
+## Skills
+
+**Languages:** TypeScript, Python
+**Frameworks:** React, Node.js
+**Tools:** AWS, PostgreSQL, Kafka, Terraform, Redis, Docker
+
+## Education
+
+### University of New South Wales
+**Bachelor of Engineering (Honours), Software Engineering** · Feb 2014 – Nov 2018
+*First Class Honours*
+GPA: 6.5
+
+## Certifications
+
+- **AWS Certified Solutions Architect – Associate** — Amazon Web Services · May 2022 (expires May 2025)
+
+## Projects
+
+### OpenTraceQL — [https://opentraceql.dev](https://opentraceql.dev)
+*TypeScript, Node.js*
+Open-source query language for distributed trace analysis, used by 300+ developers
+- 300+ GitHub stars"
+`;
