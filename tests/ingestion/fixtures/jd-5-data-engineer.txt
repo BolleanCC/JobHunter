@@ -1,0 +1,35 @@
+Data Engineer (Mid–Senior)
+Afterpay | Remote-First (Australia) | Full-Time
+Salary: AUD 130,000 – 160,000 per annum + bonus + equity
+
+About the data platform team
+Our Data Platform team powers analytics and ML features for Afterpay's 20 million+ customers. We build and operate the pipelines that move, transform, and serve data at petabyte scale. We're a remote-first team distributed across Sydney, Melbourne, and Brisbane.
+
+What you'll work on
+- Design and build batch and streaming data pipelines using Apache Spark and Apache Kafka
+- Develop dbt models to transform raw event data into clean, well-documented datasets
+- Maintain and extend our data platform on Google Cloud (BigQuery, Dataflow, Cloud Composer)
+- Implement data quality checks, schema validation, and alerting using Great Expectations
+- Collaborate with data scientists and analytics engineers to support feature development
+- Contribute to platform-level work: orchestration (Airflow), CI/CD for dbt, data catalogue
+
+Required
+- 3–6 years of professional data engineering experience
+- Proficiency in Python for data engineering (not data science or ML)
+- Apache Spark (PySpark preferred) – production pipeline experience required
+- SQL at advanced level: window functions, CTEs, query optimisation
+- BigQuery or Snowflake – hands-on experience with a cloud warehouse
+- Data modelling fundamentals: star schema, SCD, dimensional modelling
+- dbt (core or cloud) – writing, testing, and documenting models
+
+Nice to have
+- Apache Kafka or Kinesis streaming experience
+- Airflow DAG development (not just triggering)
+- Great Expectations or similar data quality frameworks
+- GCP Professional Data Engineer certification
+- Experience with Terraform for GCP infrastructure
+
+Team and culture
+We operate with high autonomy. Engineers own their pipelines from design to production monitoring. We hold weekly data platform syncs and have a strong culture of documentation.
+
+You must have the right to work in Australia. We're open to discussing relocation for candidates currently based elsewhere in Australia.

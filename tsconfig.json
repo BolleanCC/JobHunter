@@ -2,7 +2,8 @@
   "extends": "./tsconfig.base.json",
   "references": [
     { "path": "./packages/schema" },
-    { "path": "./packages/db" }
+    { "path": "./packages/db" },
+    { "path": "./packages/ingestion" }
   ],
   "files": []
 }

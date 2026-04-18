@@ -1,0 +1,36 @@
+IT Support Analyst – Level 2
+Westfield Retail Group | Sydney CBD, NSW | On-Site | Full-Time
+
+Overview
+Westfield Retail Group is seeking an experienced Level 2 IT Support Analyst to join our Corporate IT team. You'll be the escalation point for Level 1 helpdesk and will manage a broad range of desktop, networking, and application support issues across our Sydney head office.
+
+Key responsibilities
+- Provide Level 2 desktop and application support to 800+ corporate staff
+- Manage Active Directory user accounts, group policies, and security groups
+- Administer Microsoft 365 (Exchange Online, Teams, SharePoint, Intune)
+- Troubleshoot network connectivity issues (LAN, Wi-Fi, VPN)
+- Escalate complex infrastructure issues to the Level 3 network/server team
+- Log and manage tickets in ServiceNow; maintain SLA compliance
+- Participate in hardware refresh projects (laptop imaging, SCCM deployments)
+- Produce knowledge base articles and user guides
+
+Required skills and experience
+- Minimum 3 years in an IT support or desktop support role
+- Strong knowledge of Windows 10/11 in a corporate environment
+- Active Directory and Azure AD administration
+- Microsoft 365 administration (Exchange, Teams, Intune, SharePoint)
+- ServiceNow or equivalent ITSM platform experience
+- ITIL Foundation certification (or willingness to obtain within 12 months)
+- Strong troubleshooting skills and methodical approach to problem solving
+- Excellent verbal and written communication – you'll be supporting non-technical executives
+
+Desirable
+- SCCM / Microsoft Endpoint Configuration Manager experience
+- Experience with network troubleshooting (basic switching, DNS, DHCP)
+- Familiarity with Cisco Meraki Wi-Fi infrastructure
+
+Salary
+$75,000 – $90,000 AUD + superannuation
+
+You will be required to be on-site five days per week at our Sydney CBD head office. This role is fully in-office with no work-from-home arrangements.
+Applicants must have full working rights in Australia.

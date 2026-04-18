@@ -1,0 +1,49 @@
+{
+  "roleTitle": "Junior .NET Developer",
+  "seniority": "junior",
+  "domain": "Backend Engineering",
+  "responsibilities": [
+    "Implement new features and bug fixes in the ASP.NET Core web application",
+    "Write and maintain SQL Server stored procedures and LINQ queries",
+    "Write unit tests using xUnit and Moq",
+    "Participate in code review and daily standups",
+    "Work with QA team to verify bug fixes"
+  ],
+  "mustHaveSkills": [
+    { "name": "C#", "category": "language", "isRequired": true, "isAmbiguous": false, "rawText": "Proficiency in C# and .NET (5 / 6 / 7 or above)" },
+    { "name": ".NET", "category": "framework", "isRequired": true, "isAmbiguous": false },
+    { "name": "SQL Server", "category": "tool", "isRequired": true, "isAmbiguous": false, "rawText": "Basic understanding of SQL Server and relational database design" },
+    { "name": "Git", "category": "tool", "isRequired": true, "isAmbiguous": false }
+  ],
+  "niceToHaveSkills": [
+    { "name": "ASP.NET Core", "category": "framework", "isRequired": false, "isAmbiguous": false },
+    { "name": "Azure DevOps", "category": "platform", "isRequired": false, "isAmbiguous": false },
+    { "name": "xUnit", "category": "tool", "isRequired": false, "isAmbiguous": false },
+    { "name": "Moq", "category": "tool", "isRequired": false, "isAmbiguous": false },
+    { "name": "HL7", "category": "methodology", "isRequired": false, "isAmbiguous": false },
+    { "name": "FHIR", "category": "methodology", "isRequired": false, "isAmbiguous": false }
+  ],
+  "atsKeywords": [
+    "C#", ".NET", "ASP.NET Core", "SQL Server", "LINQ", "Entity Framework",
+    "xUnit", "Moq", "Git", "Azure DevOps", "CI/CD",
+    "HL7", "FHIR", "healthcare", "REST API",
+    "Razor Pages", "MVC", "stored procedures", "unit testing"
+  ],
+  "educationRequirements": [
+    "Degree in Computer Science, Software Engineering, or equivalent"
+  ],
+  "workAuthorizationSignals": [
+    "Must be Australian citizen or permanent resident – no visa sponsorship"
+  ],
+  "location": "Brisbane, QLD",
+  "workModel": "onsite",
+  "salary": {
+    "min": 65000,
+    "max": 80000,
+    "currency": "AUD",
+    "period": "annual",
+    "isNegotiable": false
+  },
+  "redFlags": [],
+  "summary": "Entry-level .NET role at a healthcare software company in Brisbane. Good for a CS graduate wanting exposure to regulated industry software. Onsite role; Australian work rights required."
+}

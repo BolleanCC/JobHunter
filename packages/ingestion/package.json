@@ -1,0 +1,16 @@
+{
+  "name": "@jobhunter/ingestion",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.20.0",
+    "@jobhunter/db": "workspace:*",
+    "@jobhunter/schema": "workspace:*",
+    "dotenv": "^16.4.0",
+    "zod": "^3.22.0"
+  }
+}

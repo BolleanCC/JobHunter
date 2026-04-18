@@ -1,0 +1,56 @@
+{
+  "roleTitle": "IT Support Analyst – Level 2",
+  "seniority": "mid",
+  "domain": "IT Support",
+  "responsibilities": [
+    "Provide Level 2 desktop and application support to 800+ corporate staff",
+    "Manage Active Directory user accounts, group policies, and security groups",
+    "Administer Microsoft 365 including Exchange Online, Teams, SharePoint, and Intune",
+    "Troubleshoot network connectivity issues including LAN, Wi-Fi, and VPN",
+    "Escalate complex infrastructure issues to Level 3 team",
+    "Log and manage tickets in ServiceNow and maintain SLA compliance",
+    "Participate in hardware refresh projects including laptop imaging and SCCM deployments",
+    "Produce knowledge base articles and user guides"
+  ],
+  "mustHaveSkills": [
+    { "name": "Windows 10", "category": "platform", "isRequired": true, "isAmbiguous": false, "rawText": "Strong knowledge of Windows 10/11 in a corporate environment" },
+    { "name": "Active Directory", "category": "tool", "isRequired": true, "isAmbiguous": false },
+    { "name": "Azure AD", "category": "platform", "isRequired": true, "isAmbiguous": false },
+    { "name": "Microsoft 365", "category": "platform", "isRequired": true, "isAmbiguous": false },
+    { "name": "Exchange Online", "category": "tool", "isRequired": true, "isAmbiguous": false },
+    { "name": "Microsoft Intune", "category": "tool", "isRequired": true, "isAmbiguous": false },
+    { "name": "SharePoint", "category": "tool", "isRequired": true, "isAmbiguous": false },
+    { "name": "ServiceNow", "category": "tool", "isRequired": true, "isAmbiguous": false },
+    { "name": "ITIL Foundation", "category": "methodology", "isRequired": true, "isAmbiguous": true, "rawText": "ITIL Foundation certification (or willingness to obtain within 12 months)" }
+  ],
+  "niceToHaveSkills": [
+    { "name": "SCCM", "category": "tool", "isRequired": false, "isAmbiguous": false },
+    { "name": "Cisco Meraki", "category": "platform", "isRequired": false, "isAmbiguous": false },
+    { "name": "DNS", "category": "other", "isRequired": false, "isAmbiguous": false },
+    { "name": "DHCP", "category": "other", "isRequired": false, "isAmbiguous": false }
+  ],
+  "atsKeywords": [
+    "IT support", "desktop support", "Level 2", "L2", "helpdesk",
+    "Active Directory", "Azure AD", "Microsoft 365", "M365",
+    "Exchange Online", "Microsoft Teams", "SharePoint", "Microsoft Intune",
+    "ServiceNow", "ITSM", "SLA", "ITIL", "ITIL Foundation",
+    "Windows 10", "Windows 11", "SCCM", "laptop imaging",
+    "VPN", "LAN", "Wi-Fi", "Cisco Meraki",
+    "DNS", "DHCP", "troubleshooting", "knowledge base"
+  ],
+  "educationRequirements": [],
+  "workAuthorizationSignals": [
+    "Applicants must have full working rights in Australia"
+  ],
+  "location": "Sydney CBD, NSW",
+  "workModel": "onsite",
+  "salary": {
+    "min": 75000,
+    "max": 90000,
+    "currency": "AUD",
+    "period": "annual",
+    "isNegotiable": false
+  },
+  "redFlags": [],
+  "summary": "Level 2 IT support role in a large retail corporate environment. Requires strong M365, Active Directory, and ServiceNow experience. 100% onsite at Sydney CBD; Australian working rights required."
+}

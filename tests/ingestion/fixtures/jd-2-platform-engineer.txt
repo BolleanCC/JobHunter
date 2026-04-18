@@ -1,0 +1,37 @@
+Senior Platform Engineer
+Atlassian | Melbourne, VIC or Remote (Australia) | Permanent Full-Time
+
+About the team
+The Developer Experience Platform team builds and operates the internal infrastructure that 10,000+ Atlassian engineers rely on daily. We own the CI/CD platform, internal developer portal, and shared Kubernetes infrastructure.
+
+Your impact
+- Design and build self-service developer tooling that removes friction from the software delivery process
+- Own reliability and scalability of shared Kubernetes clusters across three AWS regions
+- Develop and maintain Terraform modules consumed by 200+ product teams
+- Evaluate and introduce new tooling to improve platform observability and developer experience
+- Collaborate with security team to enforce compliance and secrets management across the platform
+- Participate in on-call rotation; expected to maintain 99.9% SLA on core platform services
+
+Required skills
+- 6+ years of software engineering or infrastructure engineering experience
+- Strong proficiency in Kubernetes (CKA or equivalent experience strongly preferred)
+- Terraform and infrastructure-as-code at scale (managing large state files, remote backends)
+- AWS (EKS, IAM, VPC, S3, CloudWatch) – must be hands-on, not just architectural
+- Programming proficiency in Go or Python for building internal tooling
+- Experience with observability stacks: Prometheus, Grafana, OpenTelemetry
+- CI/CD platforms: GitHub Actions, Jenkins, or Buildkite
+
+Advantageous experience
+- Helm chart development and management
+- Service mesh (Istio or Linkerd)
+- HashiCorp Vault for secrets management
+- Experience with GitOps (Argo CD or Flux)
+- Cost optimisation on cloud infrastructure
+
+Compensation
+Competitive base salary + equity (OTE range not disclosed – discussed during interview process)
+
+Working arrangements
+This role can be based in our Melbourne Docklands office or fully remote within Australia. You'll need to be available during AEST business hours.
+
+We welcome applicants who require flexible arrangements. Visa sponsorship may be available for exceptional candidates.

@@ -1,0 +1,49 @@
+{
+  "roleTitle": "Senior Frontend Engineer – Consumer Products",
+  "seniority": "senior",
+  "domain": "Frontend Engineering",
+  "responsibilities": [
+    "Architect and build high-performance React components used at massive scale",
+    "Drive technical direction for the frontend within the squad",
+    "Collaborate with design systems team to evolve shared component library",
+    "Review code, mentor junior engineers, and establish engineering standards",
+    "Participate in on-call rotation (approximately 1 week per quarter)"
+  ],
+  "mustHaveSkills": [
+    { "name": "TypeScript", "category": "language", "isRequired": true, "isAmbiguous": false, "rawText": "Expert-level TypeScript and React" },
+    { "name": "React", "category": "framework", "isRequired": true, "isAmbiguous": false, "rawText": "Expert-level TypeScript and React (hooks, context, performance optimisation)" },
+    { "name": "Redux", "category": "framework", "isRequired": true, "isAmbiguous": true, "rawText": "Experience with state management (Redux, Zustand, or similar)" },
+    { "name": "Jest", "category": "tool", "isRequired": true, "isAmbiguous": false, "rawText": "Experience writing unit and integration tests (Jest, React Testing Library)" },
+    { "name": "React Testing Library", "category": "tool", "isRequired": true, "isAmbiguous": false },
+    { "name": "Web APIs", "category": "other", "isRequired": true, "isAmbiguous": false, "rawText": "Solid understanding of browser rendering, Web APIs, and Core Web Vitals" }
+  ],
+  "niceToHaveSkills": [
+    { "name": "Next.js", "category": "framework", "isRequired": false, "isAmbiguous": false, "rawText": "Experience with Next.js or similar SSR frameworks" },
+    { "name": "WebAssembly", "category": "other", "isRequired": false, "isAmbiguous": false },
+    { "name": "WebGL", "category": "other", "isRequired": false, "isAmbiguous": false },
+    { "name": "GraphQL", "category": "tool", "isRequired": false, "isAmbiguous": false }
+  ],
+  "atsKeywords": [
+    "TypeScript", "React", "React 18", "Redux", "Redux Toolkit", "Zustand",
+    "Next.js", "Vite", "Vitest", "Jest", "React Testing Library",
+    "CSS Modules", "GraphQL", "WebAssembly", "WebGL",
+    "Core Web Vitals", "Web APIs", "SSR", "state management",
+    "component library", "design systems", "performance optimisation",
+    "on-call", "code review", "frontend architecture"
+  ],
+  "educationRequirements": [],
+  "workAuthorizationSignals": [
+    "Must have full working rights in Australia (no visa sponsorship offered)"
+  ],
+  "location": "Sydney, NSW",
+  "workModel": "hybrid",
+  "salary": {
+    "min": 150000,
+    "max": 180000,
+    "currency": "AUD",
+    "period": "annual",
+    "isNegotiable": false
+  },
+  "redFlags": [],
+  "summary": "Senior frontend role at Canva building the design editor at scale. Strong TypeScript/React required with state management experience. Hybrid 3 days Sydney CBD; no visa sponsorship."
+}

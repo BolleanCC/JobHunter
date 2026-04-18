@@ -1,0 +1,55 @@
+{
+  "roleTitle": "Senior Platform Engineer",
+  "seniority": "senior",
+  "domain": "Platform Engineering",
+  "responsibilities": [
+    "Design and build self-service developer tooling to remove friction from software delivery",
+    "Own reliability and scalability of shared Kubernetes clusters across three AWS regions",
+    "Develop and maintain Terraform modules consumed by 200+ product teams",
+    "Evaluate and introduce new tooling to improve platform observability and developer experience",
+    "Collaborate with security team to enforce compliance and secrets management",
+    "Participate in on-call rotation to maintain 99.9% SLA on core platform services"
+  ],
+  "mustHaveSkills": [
+    { "name": "Kubernetes", "category": "platform", "isRequired": true, "isAmbiguous": false, "yearsRequired": 6, "rawText": "Strong proficiency in Kubernetes (CKA or equivalent experience strongly preferred)" },
+    { "name": "Terraform", "category": "tool", "isRequired": true, "isAmbiguous": false, "rawText": "Terraform and infrastructure-as-code at scale" },
+    { "name": "AWS", "category": "platform", "isRequired": true, "isAmbiguous": false, "rawText": "AWS (EKS, IAM, VPC, S3, CloudWatch) – must be hands-on" },
+    { "name": "Go", "category": "language", "isRequired": true, "isAmbiguous": true, "rawText": "Programming proficiency in Go or Python" },
+    { "name": "Python", "category": "language", "isRequired": true, "isAmbiguous": true, "rawText": "Programming proficiency in Go or Python" },
+    { "name": "Prometheus", "category": "tool", "isRequired": true, "isAmbiguous": false },
+    { "name": "Grafana", "category": "tool", "isRequired": true, "isAmbiguous": false },
+    { "name": "OpenTelemetry", "category": "tool", "isRequired": true, "isAmbiguous": false },
+    { "name": "GitHub Actions", "category": "tool", "isRequired": true, "isAmbiguous": true, "rawText": "GitHub Actions, Jenkins, or Buildkite" }
+  ],
+  "niceToHaveSkills": [
+    { "name": "Helm", "category": "tool", "isRequired": false, "isAmbiguous": false },
+    { "name": "Istio", "category": "platform", "isRequired": false, "isAmbiguous": false },
+    { "name": "HashiCorp Vault", "category": "tool", "isRequired": false, "isAmbiguous": false },
+    { "name": "Argo CD", "category": "tool", "isRequired": false, "isAmbiguous": false },
+    { "name": "Flux", "category": "tool", "isRequired": false, "isAmbiguous": false },
+    { "name": "CKA", "category": "other", "isRequired": false, "isAmbiguous": false }
+  ],
+  "atsKeywords": [
+    "Kubernetes", "k8s", "EKS", "Terraform", "AWS", "IAM", "VPC", "CloudWatch",
+    "Go", "Python", "Prometheus", "Grafana", "OpenTelemetry",
+    "GitHub Actions", "Jenkins", "Buildkite", "CI/CD",
+    "Helm", "Istio", "Linkerd", "HashiCorp Vault", "Argo CD", "Flux", "GitOps",
+    "infrastructure-as-code", "IaC", "platform engineering",
+    "developer experience", "DevEx", "SLA", "on-call", "observability",
+    "secrets management", "CKA", "service mesh"
+  ],
+  "educationRequirements": [],
+  "workAuthorizationSignals": [
+    "Visa sponsorship may be available for exceptional candidates"
+  ],
+  "location": "Melbourne, VIC",
+  "workModel": "remote",
+  "redFlags": [
+    {
+      "type": "vague_compensation",
+      "description": "Salary range not disclosed; described only as 'competitive' and discussed during interview",
+      "severity": "medium"
+    }
+  ],
+  "summary": "Senior platform engineering role at Atlassian owning Kubernetes infrastructure and developer tooling at scale. Strong IaC and observability skills required. Fully remote within Australia; visa sponsorship possible for exceptional candidates."
+}

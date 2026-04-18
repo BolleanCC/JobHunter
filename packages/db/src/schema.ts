@@ -44,6 +44,22 @@ export const applications = sqliteTable("applications", {
   followUpAt: integer("follow_up_at", { mode: "timestamp" }),
 });
 
+// Structured requirements extracted from a job posting via LLM
+export const jobRequirements = sqliteTable("job_requirements", {
+  id: text("id").primaryKey(),
+  jobPostingId: text("job_posting_id"),
+  // Raw verbatim LLM tool call input — before Zod validation
+  rawExtractionJson: text("raw_extraction_json").notNull(),
+  // Validated and normalized JobRequirements (presentation fields as JSON)
+  normalizedJson: text("normalized_json").notNull(),
+  extractedByModel: text("extracted_by_model").notNull(),
+  extractedAt: integer("extracted_at", { mode: "timestamp" }).notNull(),
+  humanReviewed: integer("human_reviewed", { mode: "boolean" })
+    .notNull()
+    .default(false),
+  createdAt: integer("created_at", { mode: "timestamp" }).notNull(),
+});
+
 // Cached LLM token usage for observability
 export const llmUsage = sqliteTable("llm_usage", {
   id: integer("id").primaryKey({ autoIncrement: true }),

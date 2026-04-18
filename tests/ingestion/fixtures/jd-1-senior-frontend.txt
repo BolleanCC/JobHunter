@@ -1,0 +1,40 @@
+Senior Frontend Engineer – Consumer Products
+Canva | Sydney, NSW | Hybrid (3 days in office) | Full-Time
+Salary: $150,000 – $180,000 AUD per annum + equity
+
+About the role
+We're looking for a Senior Frontend Engineer to join our Consumer Products team in Sydney. You'll be building the next generation of Canva's design editor, used by over 150 million people globally.
+
+You'll work in a small autonomous squad with a product manager and a designer. You own features end-to-end, from technical design through to production.
+
+What you'll do
+- Architect and build high-performance React components used at massive scale
+- Drive technical direction for the frontend within your squad
+- Collaborate with design systems team to evolve shared component library
+- Review code, mentor junior engineers, and establish engineering standards
+- Participate in on-call rotation (approx 1 week per quarter)
+
+What we're looking for
+Required:
+- 5+ years of professional software engineering experience
+- Expert-level TypeScript and React (hooks, context, performance optimisation)
+- Experience with state management (Redux, Zustand, or similar)
+- Solid understanding of browser rendering, Web APIs, and Core Web Vitals
+- Experience writing unit and integration tests (Jest, React Testing Library)
+- Strong communication and ability to drive technical discussions
+
+Nice to have:
+- Experience with Next.js or similar SSR frameworks
+- WebAssembly or WebGL experience
+- Familiarity with design systems or component libraries at scale
+- Prior experience with Figma or other design tools
+
+Tech stack
+TypeScript, React 18, Redux Toolkit, Vite, Vitest, Jest, CSS Modules, GraphQL
+
+About you
+You are a collaborative, product-minded engineer who takes pride in crafting polished user experiences. You thrive in fast-moving environments and are comfortable with ambiguity.
+
+Requirements
+- Must have full working rights in Australia (we do not offer visa sponsorship for this role)
+- Must be willing to work from our Sydney CBD office at least 3 days per week

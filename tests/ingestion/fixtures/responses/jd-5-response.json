@@ -1,0 +1,56 @@
+{
+  "roleTitle": "Data Engineer",
+  "seniority": "mid",
+  "domain": "Data Engineering",
+  "responsibilities": [
+    "Design and build batch and streaming data pipelines using Apache Spark and Apache Kafka",
+    "Develop dbt models to transform raw event data into clean, well-documented datasets",
+    "Maintain and extend data platform on Google Cloud including BigQuery, Dataflow, and Cloud Composer",
+    "Implement data quality checks, schema validation, and alerting using Great Expectations",
+    "Collaborate with data scientists and analytics engineers to support feature development",
+    "Contribute to orchestration, CI/CD for dbt, and data catalogue platform work"
+  ],
+  "mustHaveSkills": [
+    { "name": "Python", "category": "language", "isRequired": true, "isAmbiguous": false, "rawText": "Proficiency in Python for data engineering", "yearsRequired": 3 },
+    { "name": "Apache Spark", "category": "framework", "isRequired": true, "isAmbiguous": false, "rawText": "Apache Spark (PySpark preferred) – production pipeline experience required" },
+    { "name": "PySpark", "category": "framework", "isRequired": true, "isAmbiguous": true, "rawText": "PySpark preferred" },
+    { "name": "SQL", "category": "language", "isRequired": true, "isAmbiguous": false, "rawText": "SQL at advanced level: window functions, CTEs, query optimisation" },
+    { "name": "BigQuery", "category": "platform", "isRequired": true, "isAmbiguous": true, "rawText": "BigQuery or Snowflake – hands-on experience with a cloud warehouse" },
+    { "name": "dbt", "category": "tool", "isRequired": true, "isAmbiguous": false, "rawText": "dbt (core or cloud) – writing, testing, and documenting models" },
+    { "name": "dimensional modelling", "category": "methodology", "isRequired": true, "isAmbiguous": false }
+  ],
+  "niceToHaveSkills": [
+    { "name": "Apache Kafka", "category": "framework", "isRequired": false, "isAmbiguous": false },
+    { "name": "Amazon Kinesis", "category": "platform", "isRequired": false, "isAmbiguous": false },
+    { "name": "Apache Airflow", "category": "tool", "isRequired": false, "isAmbiguous": false },
+    { "name": "Great Expectations", "category": "tool", "isRequired": false, "isAmbiguous": false },
+    { "name": "GCP Professional Data Engineer", "category": "other", "isRequired": false, "isAmbiguous": false },
+    { "name": "Terraform", "category": "tool", "isRequired": false, "isAmbiguous": false },
+    { "name": "Snowflake", "category": "platform", "isRequired": false, "isAmbiguous": true }
+  ],
+  "atsKeywords": [
+    "Python", "PySpark", "Apache Spark", "Spark", "Apache Kafka", "Kafka",
+    "dbt", "dbt Core", "dbt Cloud", "BigQuery", "Snowflake",
+    "Google Cloud", "GCP", "Dataflow", "Cloud Composer", "Airflow",
+    "Great Expectations", "data quality", "data pipelines",
+    "SQL", "CTEs", "window functions", "query optimisation",
+    "star schema", "SCD", "dimensional modelling", "data modelling",
+    "analytics engineering", "data catalogue", "CI/CD",
+    "GCP Professional Data Engineer", "Terraform", "Kinesis"
+  ],
+  "educationRequirements": [],
+  "workAuthorizationSignals": [
+    "Must have the right to work in Australia"
+  ],
+  "location": "Remote (Australia)",
+  "workModel": "remote",
+  "salary": {
+    "min": 130000,
+    "max": 160000,
+    "currency": "AUD",
+    "period": "annual",
+    "isNegotiable": false
+  },
+  "redFlags": [],
+  "summary": "Mid-to-senior data engineering role at Afterpay building petabyte-scale pipelines. Strong Python, Spark, SQL, and dbt required. Remote-first within Australia; Australian working rights required."
+}

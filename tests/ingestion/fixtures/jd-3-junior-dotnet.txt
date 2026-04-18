@@ -1,0 +1,39 @@
+Junior .NET Developer
+MedTech Solutions Pty Ltd | Brisbane, QLD | On-Site | Full-Time
+$65,000 – $80,000 + super
+
+About us
+MedTech Solutions is a Brisbane-based healthcare technology company building practice management software for GP clinics and allied health providers across Australia.
+
+The role
+This is a great opportunity for a recent graduate or early-career developer to join a supportive team of 8 engineers. You'll be working on a long-running ASP.NET Core application that handles clinical scheduling, patient records integration, and billing.
+
+Your responsibilities
+- Implement new features and bug fixes in our ASP.NET Core web application
+- Write and maintain SQL Server stored procedures and LINQ queries
+- Write unit tests using xUnit and Moq
+- Participate in code review and daily standups
+- Work with the QA team to verify bug fixes
+
+What we need
+- Degree in Computer Science, Software Engineering, or equivalent
+- Proficiency in C# and .NET (5 / 6 / 7 or above)
+- Basic understanding of SQL Server and relational database design
+- Familiarity with Git version control
+- Eagerness to learn and willingness to ask questions
+
+Bonus points
+- Experience with ASP.NET Core MVC or Razor Pages
+- Exposure to Azure DevOps or similar CI/CD tooling
+- Familiarity with HL7 or FHIR healthcare standards
+- Understanding of REST API design
+
+The team
+Our engineering team is collaborative and values knowledge sharing. We run fortnightly retrospectives, pair programming sessions, and lunch-and-learns.
+
+Benefits
+- Flexible start times (7:30–9:30am)
+- Work-from-home Fridays once probation is passed
+- $1,500 per year training budget
+
+Candidates must be Australian citizens or permanent residents. Unfortunately we are unable to support visa sponsorship at this time.
